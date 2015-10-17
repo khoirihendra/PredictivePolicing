@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.sql.Timestamp;
 import java.util.ArrayList;
-import java.util.Date;
 import data.Format;
 
 public class VictimDataLoader {
@@ -54,9 +53,5 @@ public class VictimDataLoader {
 			}
 		}
 		return load;
-	}
-	public static void main(String[] args) {
-		VictimDataLoader load = new VictimDataLoader();
-		load.load();
 	}
 }

@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.sql.Timestamp;
 import java.util.ArrayList;
-import java.util.Date;
 
 import data.Format;
 
@@ -62,11 +61,6 @@ public class ArrestDataLoader {
 				}
 			}
 		}
-		System.out.println(load.get(load.size() - 1).toString());
 		return load;
-	}
-	public static void main(String[] args) {
-		ArrestDataLoader load = new ArrestDataLoader();
-		load.load();
 	}
 }
